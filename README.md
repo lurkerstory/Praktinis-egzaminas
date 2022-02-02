@@ -1,1 +1,0 @@
-# Praktinis-egzaminas, ir viskas
