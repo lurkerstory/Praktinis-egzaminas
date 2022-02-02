@@ -14,16 +14,16 @@
 
 
 
-
   <div class="nav">
     <div class="nereikalingas">
       <img class="nav-img" src=".//app/css/cheshire.png">
-      <a href="#" class="nav-text" id="zero">Features</a></li>
-      <a href="#" class="nav-text" id="one">Features</a></li>
-      <a href="#" class="nav-text" id="two">About</a></li>
-      <a href="#" class="nav-text" id="three">Pricing</a></li>
-      <a href="#" class="nav-text" id="four">Reviews</a></li>
-      <a href="#" class="nav-text" id="five">Contacts</a></li>
+      <a href="#" class="nav-text" id="zero">Features</a>
+      <a href="#features" class="nav-text" id="one">Features</a>
+
+      <a href="#About" class="nav-text" id="two">About</a>
+      <a href="#Pricing" class="nav-text" id="three">Pricing</a>
+      <a href="#" class="nav-text" id="four">Reviews</a>
+      <a href="#Contacts" class="nav-text" id="five">Contacts</a>
     </div>
 
   </div>
@@ -48,7 +48,7 @@
 
   <div class="row">
     <div>
-      <div style="    background: rgba(0, 0, 0, 0.7)   url('photo.png');
+      <div style="    background: rgba(0, 0, 0, 0.7)  url('../photo.png');
         height: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -124,10 +124,10 @@
 
   <div>
     <div class="konteinerio_foto"
-      style="background-image:   linear-gradient(to bottom,rgba(226, 120, 102, 0.73), rgba(102, 150, 226, 0.61)), url('photo1.png');background-size:cover; background-position:center ;  ">
+      style="background-image:   linear-gradient(to bottom,rgba(226, 120, 102, 0.73), rgba(102, 150, 226, 0.61)), url('../photo1.png');background-size:cover; background-position:center ;  ">
 
 
-      <div class=" one_box">
+      <div id="features" class=" one_box">
 
         <div class="white-text text-center">
           <div class="two_Box">
@@ -179,9 +179,20 @@
 
             <div class="three_Box-1">
               <div class="riba">
-                <div> <img src=".//app/css/plant.png" alt="" width="200px  " height="auto"></div>
-                <div> <img src=".//app/css/lalal.png" alt="" width="200px  " height="auto"></div>
-                <div> <img src=".//app/css/notAPlant.png" alt="" width="auto  " height="200px"></div>
+
+                <div class="change">
+                  <img src=".//app/css/Plant.png" alt="" width="200px  " height="auto">
+                  <div class="text-block">
+
+                  </div>
+                </div>
+                <div><img src=".//app/css/lalal.png" alt="" width="200px  " height="auto">
+
+                </div>
+                <div><img src=".//app/css/notAPlant.png" alt="" width=400px " height=" auto">
+
+                </div>
+
               </div>
             </div>
 
@@ -260,7 +271,7 @@
         <div class=" boxbox">
 
           <div class="teksto-konteineris">
-            <h1>WHY THIS IS AWESOME</h1>
+            <h1 id="About">WHY THIS IS AWESOME</h1>
             <img class="simplyPutLinija" src=".//app/css/white_line.png" alt="" width="auto">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
@@ -294,7 +305,7 @@
         <div class=" leBox">
 
           <div class="PRICING">
-            <h1>PRICING OPTIONS</h1>
+            <h1 id="Pricing">PRICING OPTIONS</h1>
             <img class="simplyPutLinija" src=".//app/css/green.png" alt="" width="auto">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
@@ -370,7 +381,7 @@
         <div class=" leBox">
 
           <div class="PRICING">
-            <h1>CONTACT US</h1>
+            <h1 id="Contacts">CONTACT US</h1>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
